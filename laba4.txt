@@ -1,0 +1,11 @@
+plot "data.txt" index 0 every 2 with points, "" index 1 every 2 with points, "" index 2 every 2 with points, "" index 3 every 2 with points, "" index 4 every 2 with points, "" index 5 every 2 with points
+
+plot "data.txt" index 0 with linespoints, \
+     "" index 1 with linespoints, \
+     "" index 2 with linespoints, \
+     "" index 3 every ::2::2 with points, \
+     "" index 4 with linespoints, \
+     "" index 5 with linespoints
+
+plot "data.txt" index 1 every ::0::2 with linespoints, \
+     "" index 3 every ::1 with linespoints
